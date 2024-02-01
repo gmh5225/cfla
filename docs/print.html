@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="cfla_book.html"><strong aria-hidden="true">1.</strong> cfla Book</a></li><li class="chapter-item expanded "><a href="cfla.html"><strong aria-hidden="true">2.</strong> cfla</a></li><li class="chapter-item expanded "><a href="installation.html"><strong aria-hidden="true">3.</strong> Installation</a></li><li class="chapter-item expanded "><a href="language/language.html"><strong aria-hidden="true">4.</strong> Language</a></li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">5.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="contributors.html"><strong aria-hidden="true">6.</strong> Contributors</a></li><li class="chapter-item expanded "><a href="license.html"><strong aria-hidden="true">7.</strong> License</a></li><li class="chapter-item expanded "><a href="cfla_group.html"><strong aria-hidden="true">8.</strong> cfla Group</a></li><li class="chapter-item expanded "><a href="how_to_donate.html"><strong aria-hidden="true">9.</strong> How to Donate</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -172,7 +172,15 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
+                        <h1 id="cfla-book"><a class="header" href="#cfla-book">cfla Book</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cfla"><a class="header" href="#cfla">cfla</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="installation"><a class="header" href="#installation">Installation</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="language"><a class="header" href="#language">Language</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contributing"><a class="header" href="#contributing">Contributing</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contributors"><a class="header" href="#contributors">Contributors</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="license"><a class="header" href="#license">License</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cfla-group"><a class="header" href="#cfla-group">cfla Group</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="how-to-donate"><a class="header" href="#how-to-donate">How to Donate</a></h1>
 
                     </main>
 
@@ -191,6 +199,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

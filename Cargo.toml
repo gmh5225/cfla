@@ -9,7 +9,6 @@ documentation = "https://peterhenryd.github.io/cfla/index.html"
 readme = "README.md"
 homepage = "https://github.com/peterhenryd/cfla"
 repository = "https://github.com/peterhenryd/cfla.git"
-license = "MIT"
 license-file = "LICENSE"
 keywords = ["cfla", "functional", "compiler", "declarative", "json"]
 categories = ["compilers"]
