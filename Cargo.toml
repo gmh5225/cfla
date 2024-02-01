@@ -1,8 +1,10 @@
 [package]
 name = "cfla"
 version = "0.1.0"
+authors = ["peterhenryd"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+rust-version = "1.75.0"
+description = "Compact functional low-level assembler, rather C.F.L.A, stylized cfla, is a declarative functional systems programming language."
+documentation = "https://github.com/peterhenryd/cfla/tree/master/src"
 
 [dependencies]
