@@ -13,4 +13,7 @@ license-file = "LICENSE"
 keywords = ["cfla", "functional", "compiler", "declarative", "json"]
 categories = ["compilers"]
 
+[workspace]
+members = ["packages/*"]
+
 [dependencies]
