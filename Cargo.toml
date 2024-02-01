@@ -5,6 +5,9 @@ authors = ["peterhenryd"]
 edition = "2021"
 rust-version = "1.75.0"
 description = "Compact functional low-level assembler, rather C.F.L.A, stylized cfla, is a declarative functional systems programming language."
-documentation = "https://github.com/peterhenryd/cfla/tree/master/src"
+documentation = "https://peterhenryd.github.io/cfla/index.html"
+readme = "https://github.com/peterhenryd/cfla/blob/main/README.md"
+homepage = "https://github.com/peterhenryd/cfla"
+repository = "https://github.com/peterhenryd/cfla.git"
 
 [dependencies]
