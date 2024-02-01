@@ -1,7 +1,8 @@
-use crate::token::TokenStream;
+use crate::error::ParseResult;
+use crate::node::Element;
 
 pub mod error;
-pub mod token;
+pub mod node;
 pub mod module;
 pub mod pair;
 pub mod object;
@@ -10,5 +11,5 @@ pub mod value;
 pub mod stdlib;
 
 pub trait Parse {
-    fn parse<'a>(token_stream: &'a mut TokenStream<'a>) -> TokenStream<'a>;
+    fn parse(tokens: &str) -> ParseResult<Element>;
 }
