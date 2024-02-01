@@ -5,3 +5,27 @@ version = 3
 [[package]]
 name = "cfla"
 version = "0.1.0"
+
+[[package]]
+name = "cfla-cli"
+version = "0.1.0"
+
+[[package]]
+name = "cfla-derive"
+version = "0.1.0"
+
+[[package]]
+name = "cfla-llvm"
+version = "0.1.0"
+
+[[package]]
+name = "cfla-parser"
+version = "0.1.0"
+
+[[package]]
+name = "cfla-wasm"
+version = "0.1.0"
+
+[[package]]
+name = "henne"
+version = "0.1.0"
