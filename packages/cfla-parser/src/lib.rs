@@ -2,6 +2,7 @@ use crate::error::ParseResult;
 use crate::node::Element;
 
 pub mod error;
+pub mod expr;
 pub mod node;
 pub mod module;
 pub mod pair;
